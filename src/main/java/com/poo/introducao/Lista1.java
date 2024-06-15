@@ -14,5 +14,20 @@ public class Lista1 {
 
 		System.out.println("Olá "+nome+" "+sobrenome);
     }
+    void ex3(){
+        Scanner scanner = new Scanner(System.in);
+        //Exercicio 3
+
+		double dolar = 5.25d;
+		double real;
+		double resultado3;
+
+		System.out.println("Digite o Valor a ser convertido em dolar :");
+		real = scanner .nextDouble();
+
+		resultado3 = real / dolar ;
+
+		System.out.println("Seu valor em dolar é : "+resultado3);
+    }
    
 }
